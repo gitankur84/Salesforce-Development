@@ -1,0 +1,2 @@
+<apex:page standardController="account" extensions="profilebasePage" action="{!redirect}">
+</apex:page>

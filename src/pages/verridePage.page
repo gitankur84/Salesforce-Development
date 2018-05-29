@@ -1,0 +1,5 @@
+<apex:page action="{!if($Profile.name!='System Administartor', null,urlFor($Action.Account.tab,$ObjectType.Account,null,true))}" 
+           standardController="account" recordSetVar="account" tabStyle="account">
+    
+    <!-- Code Here for page to display to user other than system admin-->
+</apex:page>
